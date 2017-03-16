@@ -18,17 +18,4 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-	'name': "Open_academy",
-	'category': "Pruebas",
-	'version': "1.0",
-	'depends': ['base'],
-	'author': "Jesus Toucedo",
-	'description': " Modulo de pruebas para curso",
-	'data':['views/course_view.xml',
-        'views/partner_view.xml',
-        'openacademy_workflow.xml',
-        'wizard/create_attendee_view.xml'],
-	'installable': True,
-	'auto_install': False,
-}
+import create_attendee
